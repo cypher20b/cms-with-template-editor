@@ -154,7 +154,7 @@ export class TemplateEditorComponent implements AfterViewInit,OnInit{
     console.log(this.dataservice.template.pagesOrder)
   }
   
-  // saveTemplateDraft(template:any){
+  saveTemplateDraft(template:any){
   //   this.dataservice.isLoading =true
   //   JSON.stringify(template)
   //   this.apiService.saveTemplateDraft(localStorage.getItem('storeId')!,{options:JSON.stringify(template)}).subscribe((data:any)=>{
@@ -169,9 +169,9 @@ export class TemplateEditorComponent implements AfterViewInit,OnInit{
   //       })
   //     }
   //   })
-  // }
+  }
 
-  // publishTemplate(template:any){
+  publishTemplate(template:any){
   //   console.log(template);
   //   this.apiService.publishTemplate(localStorage.getItem('storeId')!,{options:JSON.stringify(template)}).subscribe((data:any)=>{
   //     this.apiService.getMerchantStores(localStorage.getItem('businessId')!).subscribe((templatesData:any) => {
@@ -179,7 +179,7 @@ export class TemplateEditorComponent implements AfterViewInit,OnInit{
   //     })
   //     console.log(data);
   //   })
-  // }
+  }
   ngAfterViewInit() {
   }
   ngOnInit() {
